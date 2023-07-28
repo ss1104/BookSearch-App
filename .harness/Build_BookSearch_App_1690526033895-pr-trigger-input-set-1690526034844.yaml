@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_BookSearch_App_1690526033895-pr-trigger-input-set
+  identifier: Build_BookSearch_App_1690526033895prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ShobhitProject
+  pipeline:
+    identifier: Build_BookSearch_App_1690526033895
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
